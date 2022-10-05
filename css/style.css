@@ -141,7 +141,7 @@ main .content nav i.back {
 /* dropdown menu */
 
 .content .drop {
-  width: 860px;
+  width: 100%;
   height: 45px;
   background-color: #F7F7F7;
   border: 1px solid #dad8d8;
