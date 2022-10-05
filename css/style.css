@@ -145,6 +145,7 @@ main .content nav i.back {
   height: 45px;
   background-color: #F7F7F7;
   border: 1px solid #dad8d8;
+  border-bottom: 0;
 }
 
 .content .drop button {
