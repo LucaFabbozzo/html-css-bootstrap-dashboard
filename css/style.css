@@ -3,3 +3,43 @@
 body {
   font-family: 'Poppins', 'Roboto', sans-serif;
 }
+
+
+/* utilities */
+
+
+
+
+/* header */
+
+header {
+  height: 50px;
+  background-color: #F8F8FB;
+}
+
+/* main */
+
+main {
+  height: calc(100vh - 50px);
+ 
+}
+
+/* bar */
+
+.bar {
+  width: 115px;
+  height: calc(100vh - 50px);
+  background-color: #061E34;
+}
+
+
+/* content */
+
+.content {
+  width: calc(100% - 115px);
+  height: calc(100vh- 50px);
+  background-color: #FFFFFF;
+  overflow: auto;
+} 
+
+
