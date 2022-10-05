@@ -152,13 +152,30 @@ main .content nav i.back {
   color: #155CBA;
 }
 
+.drop .dropdown-toggle::after {
+  display: none;
+}
+
+
 /* table */
 
+table.lf-table > :not(caption) > * > * {
+  padding: 0.3rem 0.3rem;
+}
 
 .content table.lf-table th,
 .content table.lf-table td,
 .content table.lf-table span{
   font-size: 0.8rem;
+}
+
+.content table.lf-table td,
+.content table.lf-table span{
+  text-align: center;
+}
+
+.content table.lf-table tr.up {
+  border-bottom: 1px solid black;
 }
 
 .content table.lf-table th i {
