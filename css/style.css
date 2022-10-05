@@ -87,6 +87,13 @@ main .bar span {
 
 /* content */
 
+main .content h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #272630;
+}
+
+
 main .content {
   width: calc(100% - 115px);
   height: calc(100vh- 50px);
@@ -130,6 +137,15 @@ main .content nav i.back {
   border-radius: 50%;
 }
 
+
+/* dropdown menu */
+
+.content .drop {
+  width: 860px;
+  height: 45px;
+  background-color: #F7F7F7;
+  border: 1px solid #dad8d8;
+}
 
 
 
