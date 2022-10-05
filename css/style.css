@@ -147,10 +147,50 @@ main .content nav i.back {
   border: 1px solid #dad8d8;
 }
 
+.content .drop button {
+  background-color: #F7F7F7;
+  color: #155CBA;
+}
+
+
+/* table */
 
 
 
+.content table.lf-table th,
+.content table.lf-table td,
+.content table.lf-table span{
+  font-size: 0.8rem;
+}
 
+.content table.lf-table th i {
+  background-color: #F26453;
+  padding: 6px 5px;
+  color: #F8F8FB;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  margin-right: 3px;
+}
+
+.content table.lf-table th span {
+  font-weight: 400;
+}
+
+.content table.lf-table td i {
+  color: #6B757D;
+  padding: 6px;
+  border: 1px solid #6B757D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.content table.lf-table td span {
+  background-color: #1A8754;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #F8F8FB;
+}
 
 
 
