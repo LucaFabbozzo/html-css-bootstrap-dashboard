@@ -4,6 +4,13 @@ body {
   font-family: 'Poppins', 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -57,16 +64,16 @@ input::placeholder {
 
 main {
   height: calc(100vh - 50px);
- 
+  font-family: 'Roboto', sans-serif;;
 }
 
 /* bar */
 
-.bar {
+main .bar {
   font-family: 'Poppins', sans-serif;
 }
 
-.bar {
+main .bar {
   width: 115px;
   height: calc(100vh - 50px);
   background-color: #061E34;
@@ -80,19 +87,74 @@ main .bar span {
 
 /* content */
 
-.content {
+main .content {
   width: calc(100% - 115px);
   height: calc(100vh- 50px);
   background-color: #FFFFFF;
   overflow: auto;
 } 
 
+main .content nav {
+  height: 90px;
+  background-color: #1B73E8;
+  color: #F4F4F7;
+}
+
+main .content nav p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+main .content nav p.num {
+  font-size: 1.5rem;
+}
+
+main .content nav span {
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 400;
+  background-color: #155CBA;
+  padding: 3px 6px;
+  border-radius: 10px;
+}
+
+main .content nav i {
+  display: none;
+  font-size: 0.7rem;
+}
+
+main .content nav i.back {
+  background-color: #155CBA;
+  padding: 3px 4px;
+  border-radius: 50%;
+}
 
 
 
 
 
-/* MEDIA */
+
+
+
+
+/************* MEDIA *************/
+
+
+@media screen and (max-width: 991px) {
+  main .content nav {
+    height: 130px;
+  }
+
+  main .content nav span.small {
+    display: none;
+  }
+
+  main .content nav i {
+    display: inline-block;
+  }
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -120,7 +182,11 @@ main .bar span {
   main .content {
     width: calc(100% - 45px);
   }
+
+
 }
+
+
 
 
 @media screen and (max-width: 576px) {
