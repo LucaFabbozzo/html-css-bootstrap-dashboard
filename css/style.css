@@ -27,6 +27,7 @@ header .lf-logo {
 
 header .icons {
   width: 130px;
+  cursor: pointer;
 }
 
 header {
@@ -62,9 +63,18 @@ main {
 /* bar */
 
 .bar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bar {
   width: 115px;
   height: calc(100vh - 50px);
   background-color: #061E34;
+}
+
+main .bar span {
+  font-size: 0.7rem;
+  font-weight: lighter;
 }
 
 
@@ -103,6 +113,10 @@ main {
     width: 45px;
   }
 
+  main .bar span {
+    display: none;
+  }
+
   main .content {
     width: calc(100% - 45px);
   }
@@ -113,6 +127,15 @@ main {
 
   main .bar {
     width: 30px;
+  }
+
+  main .bar .lf-containersmall {
+    margin: 0;
+    padding: 0;
+  }
+
+  main .bar i {
+    font-size: 20px;
   }
 
   main .content {
