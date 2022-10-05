@@ -43,3 +43,33 @@ main {
 } 
 
 
+
+
+
+
+/* MEDIA */
+
+
+@media screen and (max-width: 768px) {
+
+  main .bar {
+    width: 45px;
+  }
+
+  main .content {
+    width: calc(100% - 45px);
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+
+  main .bar {
+    width: 30px;
+  }
+
+  main .content {
+    width: calc(100% - 30px);
+  }
+}
+
