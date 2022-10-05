@@ -4,6 +4,10 @@ body {
   font-family: 'Poppins', 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 
 /* utilities */
 
@@ -12,9 +16,35 @@ body {
 
 /* header */
 
+header img {
+  width: 100px;
+}
+
+header .icons {
+  width: 130px;
+}
+
 header {
   height: 50px;
   background-color: #F8F8FB;
+  font-family: 'Roboto', sans-serif;
+}
+
+header .lf-navbar {
+  flex-wrap: nowrap;
+}
+
+header .lf-navbar form {
+  width: 80%;
+  height: 30px;
+}
+
+header .lf-navbar input {
+  border-radius: 0;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
 }
 
 /* main */
