@@ -52,16 +52,12 @@ header .lf-navbar form {
 header .lf-navbar input {
   border-radius: 0;
   border-left: none;
-  padding-left: 5px;
+  padding-left: 4px;
   cursor: pointer;
 }
 
 input::placeholder {
   font-size: 0.8rem;
-}
-
-header input:focus {
-  outline: none;
 }
 
 header .lf-navbar form i.lf-lens {
@@ -283,6 +279,10 @@ main .content input.form-check-input {
 
 
 /* list-group */
+
+main .content #activity {
+  border-radius: 5px;
+}
 
 main .content .list-group.lf-list {
   font-size: 0.8rem;
