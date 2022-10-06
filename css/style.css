@@ -268,9 +268,15 @@ table.lf-table > :not(caption) > * > * {
   font-size: 0.8rem;
 }
 
+.form-check {
+  padding-left: 1.9rem;
+}
+
 .content .lf-todo {
   background-color: #F7F6F8;
 }
+
+
 
 /* list-group */
 
