@@ -235,6 +235,17 @@ table.lf-table > :not(caption) > * > * {
   background-color: #F7F6F8;
 }
 
+/* list-group */
+
+.list-group.lf-list {
+  font-size: 0.8rem;
+}
+
+.list-group.lf-list p.big {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
 /************* MEDIA *************/
 
 
