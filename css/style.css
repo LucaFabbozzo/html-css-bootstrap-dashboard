@@ -249,6 +249,7 @@ table.lf-table > :not(caption) > * > * {
 }
 
 
+
 /* accordion */
 
 .content .lf-faq-top {
@@ -347,6 +348,11 @@ table.lf-table > :not(caption) > * > * {
 
   main .content {
     width: calc(100% - 30px);
+  }
+
+  .content table.lf-table th.cancel,
+  .content table.lf-table td.cancel {
+    display: none;
   }
 }
 
