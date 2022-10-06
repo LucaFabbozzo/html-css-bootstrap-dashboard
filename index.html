@@ -107,23 +107,47 @@
                       <i class="fa-solid fa-plus"></i>
                     </button>
                     <form class="dropdown-menu p-4">
+                      <h3 class="pb-4">Form</h3>
                       <div class="mb-3">
-                        <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                        <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                        <input type="email" class="form-control half" id="exampleDropdownFormEmail2">
                       </div>
                       <div class="mb-3">
                         <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                        <input type="password" class="form-control half" id="exampleDropdownFormPassword2">
                       </div>
                       <div class="mb-3">
+                        <label class="form-label">Indirizzo</label>
+                        <input type="name" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Città</label>
+                        <input type="name" class="form-control half">
+                      </div>
+                      <div class="mb-3">
+                        <label for="disabledSelect" class="form-label">Stato</label>
+                        <select id="disabledSelect" class="form-select half">
+                          <option>Scegli</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label  class="form-label">CAP</label>
+                        <input type="name" class="form-control half" >
+                      </div>
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                       <div class="mb-3">
                         <div class="form-check">
                           <input type="checkbox" class="form-check-input" id="dropdownCheck2">
                           <label class="form-check-label" for="dropdownCheck2">
-                            Remember me
+                            Seleziona per proseguire
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <button type="submit" class="btn btn-primary bg-primary text-white border-0">Salva</button>
+                      <button type="submit" class="btn btn-primary bg-warning text-black border-0">Svuota</button>
                     </form>
                   </div>
                 </div>
