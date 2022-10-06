@@ -64,6 +64,7 @@ input::placeholder {
 }
 
 header .lf-navbar form i.lf-lens {
+  cursor: pointer;
   font-size: 0.8rem;
   background-color: #FFFEFF;
   padding-top: 7px;
@@ -92,7 +93,7 @@ main .bar {
 main .bar {
   width: 115px;
   height: calc(100vh - 50px);
-  background-color: #061E34;
+  background-color: #061E34;  
 }
 
 main .bar span {
@@ -100,6 +101,19 @@ main .bar span {
   font-weight: lighter;
 }
 
+.dropdown-menu[data-bs-popper].lf-dropdown {
+  left: auto;
+  right: 4px;
+  top: 45px;
+}
+
+ul.dropdown-menu.lf-dropdown {
+ font-size: 0.8rem;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
 
 /* content */
 
