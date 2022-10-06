@@ -87,6 +87,9 @@ main .bar span {
 
 /* content */
 
+
+/* TOP */
+
 main .content h3 {
   font-size: 1.3rem;
   font-weight: 400;
@@ -137,6 +140,7 @@ main .content nav i.back {
   border-radius: 50%;
 }
 
+/* BOTTOM */
 
 /* dropdown menu */
 
@@ -209,6 +213,27 @@ table.lf-table > :not(caption) > * > * {
 }
 
 
+/* accordion */
+
+.content .lf-faq-top {
+  background-color: #F7F6F8;
+}
+
+ .accordion.lf-accordion button,
+ .accordion.lf-accordion .accordion-body{
+  font-size: 0.8rem;
+  padding: 10px 12px;
+}
+
+/* form check */
+
+.form-check label {
+  font-size: 0.8rem;
+}
+
+.content .lf-todo {
+  background-color: #F7F6F8;
+}
 
 /************* MEDIA *************/
 
