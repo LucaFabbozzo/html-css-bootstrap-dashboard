@@ -213,7 +213,9 @@ table.lf-table > :not(caption) > * > * {
 /************* MEDIA *************/
 
 
+
 @media screen and (max-width: 991px) {
+
   main .content nav {
     height: 130px;
   }
@@ -225,11 +227,6 @@ table.lf-table > :not(caption) > * > * {
   main .content nav i {
     display: inline-block;
   }
-}
-
-
-
-@media screen and (max-width: 768px) {
 
   header .navbar-brand img {
     display: none;
