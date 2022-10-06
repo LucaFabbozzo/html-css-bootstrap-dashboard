@@ -1,3 +1,4 @@
+
 /* general */
 
 body {
@@ -14,11 +15,6 @@ h1 {
 img {
   max-width: 100%;
 }
-
-
-/* utilities */
-
-
 
 
 /* header */
@@ -57,10 +53,15 @@ header .lf-navbar input {
   border-radius: 0;
   border-left: none;
   padding-left: 5px;
+  cursor: pointer;
 }
 
 input::placeholder {
   font-size: 0.8rem;
+}
+
+header input:focus {
+  outline: none;
 }
 
 header .lf-navbar form i.lf-lens {
@@ -68,7 +69,7 @@ header .lf-navbar form i.lf-lens {
   font-size: 0.8rem;
   background-color: #FFFEFF;
   padding-top: 7px;
-  padding-left: 4px;
+  padding-left: 10px;
   border-top: 1px solid #CED4DA;
   border-bottom: 1px solid #CED4DA;
   border-left: 1px solid #CED4DA;
@@ -98,7 +99,7 @@ main {
   font-family: 'Roboto', sans-serif;;
 }
 
-/* bar */
+/* sidebar */
 
 main .bar {
   font-family: 'Poppins', sans-serif;
@@ -107,17 +108,18 @@ main .bar {
 main .bar {
   width: 115px;
   height: calc(100vh - 50px);
-  background-color: #061E34;  
+  background-color: #061E34; 
+  background-image: url('../img/sidebar-bg.png');
 }
 
 main .bar span {
   font-size: 0.7rem;
   font-weight: lighter;
+  cursor: pointer;
 }
 
+
 /* content */
-
-
 /* TOP */
 
 main .content h3 {
@@ -170,11 +172,12 @@ main .content nav i.back {
   border-radius: 50%;
 }
 
+
 /* BOTTOM */
 
 /* dropdown menu */
 
-.content .drop {
+main .content .drop {
   width: 100%;
   height: 45px;
   background-color: #F7F7F7;
@@ -182,44 +185,42 @@ main .content nav i.back {
   border-bottom: 0;
 }
 
-.content .drop button {
+main .content .drop button {
   background-color: #F7F7F7;
   color: #155CBA;
 }
 
-.content .drop .dropdown-toggle::after {
+main .content .drop .dropdown-toggle::after {
   display: none;
 }
 
-.content .drop .dropdown-menu {
+main .content .drop .dropdown-menu {
   min-width: 30rem;
 }
 
 
-
-
 /* table */
 
-table.lf-table > :not(caption) > * > * {
+main .content table.lf-table > :not(caption) > * > * {
   padding: 0.3rem 0.3rem;
 }
 
-.content table.lf-table th,
-.content table.lf-table td,
-.content table.lf-table span{
+main .content table.lf-table th,
+main .content table.lf-table td,
+main .content table.lf-table span{
   font-size: 0.8rem;
 }
 
-.content table.lf-table td,
-.content table.lf-table span{
+main .content table.lf-table td,
+main .content table.lf-table span{
   text-align: center;
 }
 
-.content table.lf-table tr.up {
+main .content table.lf-table tr.up {
   border-bottom: 1px solid black;
 }
 
-.content table.lf-table th i {
+main .content table.lf-table th i {
   background-color: #F26453;
   padding: 6px 5px;
   color: #F8F8FB;
@@ -228,11 +229,11 @@ table.lf-table > :not(caption) > * > * {
   margin-right: 3px;
 }
 
-.content table.lf-table th span {
+main .content table.lf-table th span {
   font-weight: 400;
 }
 
-.content table.lf-table td i {
+main .content table.lf-table td i {
   color: #6B757D;
   padding: 6px;
   border: 1px solid #6B757D;
@@ -241,7 +242,7 @@ table.lf-table > :not(caption) > * > * {
 }
 
 
-.content table.lf-table td span {
+main .content table.lf-table td span {
   background-color: #1A8754;
   padding: 2px 5px;
   border-radius: 4px;
@@ -252,44 +253,50 @@ table.lf-table > :not(caption) > * > * {
 
 /* accordion */
 
-.content .lf-faq-top {
+main .content .lf-faq-top {
   background-color: #F7F6F8;
 }
 
- .accordion.lf-accordion button,
- .accordion.lf-accordion .accordion-body{
+ main .content .accordion.lf-accordion button,
+ main .content .accordion.lf-accordion .accordion-body{
   font-size: 0.8rem;
   padding: 10px 12px;
 }
 
 /* form check */
 
-.form-check label {
+main .content .form-check label {
   font-size: 0.8rem;
 }
 
-.form-check {
+main .content .form-check {
   padding-left: 1.9rem;
 }
 
-.content .lf-todo {
+main .content .lf-todo {
   background-color: #F7F6F8;
 }
 
+main .content input.form-check-input {
+  cursor: pointer;
+}
 
 
 /* list-group */
 
-.list-group.lf-list {
+main .content .list-group.lf-list {
   font-size: 0.8rem;
 }
 
-.list-group.lf-list p.big {
+main .content .list-group.lf-list p.big {
   font-size: 1.1rem;
   margin-bottom: 0;
 }
 
+
+/*********************************/
 /************* MEDIA *************/
+/*********************************/
 
 
 
@@ -336,7 +343,6 @@ table.lf-table > :not(caption) > * > * {
 
 
 
-
 @media screen and (max-width: 576px) {
 
   main .bar {
@@ -360,5 +366,6 @@ table.lf-table > :not(caption) > * > * {
   .content table.lf-table td.cancel {
     display: none;
   }
+
 }
 
