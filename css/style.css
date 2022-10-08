@@ -299,7 +299,6 @@ main .content .list-group.lf-list p.big {
 /*********************************/
 
 
-
 @media screen and (max-width: 991px) {
 
   main .content nav {
@@ -313,7 +312,10 @@ main .content .list-group.lf-list p.big {
   main .content nav i {
     display: inline-block;
   }
+}
 
+
+@media screen and (max-width: 768px) {
   header .navbar-brand img {
     display: none;
   }
@@ -337,8 +339,6 @@ main .content .list-group.lf-list p.big {
   main .content {
     width: calc(100% - 45px);
   }
-
-
 }
 
 
