@@ -201,6 +201,10 @@ main .content table.lf-table > :not(caption) > * > * {
   padding: 0.3rem 0.3rem;
 }
 
+main .content table.lf-table th {
+  width: 100px;
+}
+
 main .content table.lf-table th,
 main .content table.lf-table td,
 main .content table.lf-table span{
